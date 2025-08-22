@@ -61,4 +61,10 @@ public class DemoController {
     }
 
   }
+
+  @GetMapping("/wave")
+  @ResponseBody
+  public String wave() {
+    return "wave: Hello, World!";
+  }
 }
