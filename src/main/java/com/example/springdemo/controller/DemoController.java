@@ -67,4 +67,10 @@ public class DemoController {
   public String wave() {
     return "wave: Hello, World!";
   }
+
+    @GetMapping("/checkGithubAction")
+    @ResponseBody
+    public String checkGitHubAction(){
+        return "Github action is worked";
+    }
 }
