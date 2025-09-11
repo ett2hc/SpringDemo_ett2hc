@@ -71,6 +71,6 @@ public class DemoController {
     @GetMapping("/checkGithubAction")
     @ResponseBody
     public String checkGitHubAction(){
-        return "Github action is worked";
+        return "Github action is worked.";
     }
 }
